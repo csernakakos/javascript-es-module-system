@@ -12,4 +12,8 @@ console.log(greeting, num);
 import {greeting as HEY, myFunc as NewFunc} from "./eventListeners.js";
 
 console.log(HEY);
-console.log(NewFunc(HEY))
+console.log(NewFunc(HEY));
+
+// -------- Default exports for when you only want to export 1 thing
+import myDefault from "./default.js";
+console.log(myDefault);
