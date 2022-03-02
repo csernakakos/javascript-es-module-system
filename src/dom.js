@@ -3,7 +3,7 @@ console.log("dom.js")
 const body = document.querySelector("body");
 
 export const styleBody = () => {
-    body.style.background = "peachpuff";
+    body.style.background = "pink";
 }
 
 export const addTitle = (text) => {

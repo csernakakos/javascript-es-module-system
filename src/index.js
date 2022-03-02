@@ -11,7 +11,7 @@ const getP = getPremiumUsers(users);
 
 greet("luigi");
 greet();
-greet("elena");
+greet("malaka");
 
 console.log("great!");
 console.log(users, getP);
